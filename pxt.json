@@ -1,0 +1,29 @@
+{
+    "name": "pxt-Synth Zim Zam",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "midi": "github:microsoft/pxt-midi#v2.1.1",
+        "microphone": "*",
+        "pxt-synth-v2": "github:CaptainCredible/pxt-synth-v2#cd47a33dae0f30b7e249f3b656782ffc6811b949",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.7.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "custom.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
